@@ -1,14 +1,14 @@
-from bedmaster_processing.analysis.functional_interface.base_compute import Compute
+from [redacted]_processing.analysis.functional_interface.base_compute import Compute
 import os
 import numpy as np
 import pandas as pd
 import sys
 import matplotlib.pyplot as plt
-from bedmaster_processing.analysis import QueryAPI as Q
-import bedmaster_processing.constants as CONST
-import bedmaster_processing.utils as util
-import bedmaster_processing.analysis.functional_interface.pan_tompkins_parallel_compute as ptpc
-from bedmaster_processing.analysis import frequency_domain_analysis as fda
+from [redacted]_processing.analysis import QueryAPI as Q
+import [redacted]_processing.constants as CONST
+import [redacted]_processing.utils as util
+import [redacted]_processing.analysis.functional_interface.pan_tompkins_parallel_compute as ptpc
+from [redacted]_processing.analysis import frequency_domain_analysis as fda
 from scipy.signal import square
 from scipy.integrate import simps as simpsons_integral
 from scipy.integrate import trapz as trapezoid_integral
